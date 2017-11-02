@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Quartz>
+  <ServiceName>陈珙的demo</ServiceName>
+  <Namespace>QuartzDotNetDemo.Jobs.{0}</Namespace>
+  <JobList>
+    <JobDetail name="HelloJob">* * * * * ?</JobDetail>
+    <JobDetail name="GoodbyeJob">* * * * * ?</JobDetail>
+  </JobList>
+</Quartz>
